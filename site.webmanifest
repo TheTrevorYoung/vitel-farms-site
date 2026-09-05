@@ -1,0 +1,9 @@
+{
+  "name": "Vitel Farms — Sierra Leone",
+  "short_name": "Vitel Farms",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#173729",
+  "icons": []
+}
