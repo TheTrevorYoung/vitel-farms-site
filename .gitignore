@@ -1,0 +1,20 @@
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python helper artifacts
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Temporary build/output files
+*.tmp
+*.log
