@@ -1,6 +1,13 @@
-# Vitel Farms Sierra Leone — production launch candidate v1.3
+# Vitel Farms Sierra Leone — production launch candidate v1.4
 
 Static, dependency-free website for Vitel Farms — Sierra Leone. This repository is the authoritative version-controlled source for the public website.
+
+## Brand hierarchy
+- **Vitel Farms is the enduring company and agribusiness platform.**
+- **Cassava is the current flagship operating mission, not the permanent boundary of the company.**
+- Current mission: help build the systems that can move Sierra Leone from around #22 toward #1 in global cassava production.
+- Future crop or value-chain expansion should occur only after the cassava platform reaches defined proof gates and a new opportunity has a separate market, technical and economic case.
+- Durable brand line: **Growing more value from Sierra Leonean agriculture.**
 
 ## Infrastructure standard
 - Website tier: **Tier 1 — Direct-Publish Site**
@@ -14,6 +21,8 @@ Static, dependency-free website for Vitel Farms — Sierra Leone. This repositor
 Routine low-risk edits may be committed directly to `main`. Material redesigns, structural changes, sensitive claims, risky integrations or multi-contributor work should use a feature branch and pull request.
 
 ## Current site
+- story-first Vitel Farms positioning with TSEAI → Vitel institutional lineage
+- current cassava mission presented as a major program inside the Vitel brand
 - 11 production HTML pages
 - responsive desktop/mobile design
 - primary content remains visible without JavaScript; JavaScript enhances navigation and inquiry behavior only
@@ -40,14 +49,15 @@ Temporary staging URL: `https://thetrevoryoung.github.io/vitel-farms-site/`
 - #22 is described as a Vitel calculation from the FAOSTAT 2024 comparable production series.
 - National operating statistics are sourced to Statistics Sierra Leone / MAFS 2024 Annual Agricultural Survey.
 - Buyer/processor names are identified as market leads, not Vitel partners.
+- Future crops are not presented as active Vitel programs until a documented business decision is made.
 
 ## Structure
-- `index.html` — Home
-- `mission.html` — From #22 to #1
-- `model.html` — Nucleus + farmer network model
-- `cassava.html` — Cassava baseline / production / processing
+- `index.html` — Home / Vitel identity
+- `about.html` — Our Story / TSEAI → Vitel history
+- `mission.html` — Current Mission / From #22 to #1
+- `model.html` — Nucleus + producer-network operating model
+- `cassava.html` — Current flagship crop baseline / production / processing
 - `markets.html` — Buyers, processors and partnerships
-- `about.html` — TSEAI → Vitel history
 - `updates.html` — Build-in-public status feed
 - `contact.html` — Farmer, buyer and partner inquiry builder
 - `evidence.html` — Sources and methodology
