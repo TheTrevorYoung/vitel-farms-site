@@ -1,4 +1,4 @@
-# Vitel Farms Sierra Leone — production launch candidate v1.4
+# Vitel Farms Sierra Leone — production launch candidate v1.5
 
 Static, dependency-free website for Vitel Farms — Sierra Leone. This repository is the authoritative version-controlled source for the public website.
 
@@ -21,6 +21,9 @@ Static, dependency-free website for Vitel Farms — Sierra Leone. This repositor
 Routine low-risk edits may be committed directly to `main`. Material redesigns, structural changes, sensitive claims, risky integrations or multi-contributor work should use a feature branch and pull request.
 
 ## Current site
+- land-to-market visual direction: agriculture, production, aggregation, processing and markets are now the primary visual system
+- green/gold identity retained and extended with restrained soil, clay and harvest tones
+- current field photography remains proof-gated: no stock or unverified imagery is used as Vitel operations
 - story-first Vitel Farms positioning with TEU → Vitel institutional lineage
 - current cassava mission presented as a major program inside the Vitel brand
 - 11 production HTML pages
