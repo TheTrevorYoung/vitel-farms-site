@@ -6,14 +6,14 @@ Only assets with clear provenance and safe public-use context should be publishe
 ## Included historical assets
 
 ### `assets/history/tseai-logo-legacy.jpg`
-- Source: Trevor Young Google Drive legacy TSEAI folder.
+- Source: Trevor Young Google Drive legacy TEU folder.
 - Original file: `TEU logo.jpg`
 - Drive file ID: `0B0nPgAhsED9zc2lYTExCZ21OUGs`
 - Public use: About/history section only.
 - Label requirement: historical predecessor-project identity; not current Vitel branding.
 
 ### `assets/history/tseai-system-legacy.jpg`
-- Source: Trevor Young Google Drive legacy TSEAI folder.
+- Source: Trevor Young Google Drive legacy TEU folder.
 - Original file: `TEU System.jpg`
 - Drive file ID: `0B0nPgAhsED9zeXZZZXFaby04WVU`
 - Public use: About/history section only.
@@ -27,5 +27,5 @@ Only assets with clear provenance and safe public-use context should be publishe
 - Excluded because the relationship between that property and the Vitel/Kambia operating model is not yet verified.
 
 ### Historical Kambia/Sierra Leone people photographs
-- Legacy TSEAI folder includes identifiable people in historical Sierra Leone/Kambia images.
+- Legacy TEU folder includes identifiable people in historical Sierra Leone/Kambia images.
 - Excluded from v1.2 public site pending context/consent review and clearer event provenance.
