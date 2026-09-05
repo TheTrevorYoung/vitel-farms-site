@@ -21,7 +21,7 @@ Static, dependency-free website for Vitel Farms — Sierra Leone. This repositor
 Routine low-risk edits may be committed directly to `main`. Material redesigns, structural changes, sensitive claims, risky integrations or multi-contributor work should use a feature branch and pull request.
 
 ## Current site
-- story-first Vitel Farms positioning with TSEAI → Vitel institutional lineage
+- story-first Vitel Farms positioning with TEU → Vitel institutional lineage
 - current cassava mission presented as a major program inside the Vitel brand
 - 11 production HTML pages
 - responsive desktop/mobile design
@@ -53,7 +53,7 @@ Temporary staging URL: `https://thetrevoryoung.github.io/vitel-farms-site/`
 
 ## Structure
 - `index.html` — Home / Vitel identity
-- `about.html` — Our Story / TSEAI → Vitel history
+- `about.html` — Our Story / TEU → Vitel history
 - `mission.html` — Current Mission / From #22 to #1
 - `model.html` — Nucleus + producer-network operating model
 - `cassava.html` — Current flagship crop baseline / production / processing
