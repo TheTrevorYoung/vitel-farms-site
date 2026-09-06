@@ -1,4 +1,4 @@
-# Vitel Farms Sierra Leone — production launch candidate v1.6
+# Vitel Farms Sierra Leone — production launch candidate v1.7
 
 Static, dependency-free website for Vitel Farms — Sierra Leone. This repository is the authoritative version-controlled source for the public website.
 
@@ -23,7 +23,9 @@ Routine low-risk edits may be committed directly to `main`. Material redesigns, 
 ## Current site
 - market-led cassava direction centered on land → production → aggregation → value addition → market
 - green/gold identity retained and extended with restrained soil, clay and harvest tones
+- branded 1200×630 social-preview card with Open Graph and Twitter large-card metadata on principal public pages
 - current field photography remains proof-gated: no stock or unverified imagery is used as Vitel operations
+- public field-image intake structure at `assets/field/README.md`, with date, location, source, rights, consent and context verification required before publication
 - founder Trevor Young and Tseai Energy Unlimited (TEU) lineage presented explicitly and separately from current operating claims
 - cassava is presented as the current flagship mission inside the broader Vitel Farms brand
 - Sierra Leone’s 2024 cassava baseline is shown at about 2.86 million tonnes and around #21 globally; #1 is presented only as a long-horizon national ambition
@@ -51,6 +53,7 @@ Temporary staging URL: `https://thetrevoryoung.github.io/vitel-farms-site/`
 - Sierra Leone’s current international cassava position is described as around #21 using the FAOSTAT 2024 comparable production series; the site keeps the ranking qualified because revisions and ranking methods can produce small differences.
 - National operating statistics are sourced to Statistics Sierra Leone / MAFS 2024 Annual Agricultural Survey.
 - Buyer/processor names are identified as market leads, not Vitel partners.
+- Current field photography is published only after provenance and rights verification.
 - Future crops are not presented as active Vitel programs until a documented business decision is made.
 
 ## Structure
@@ -65,3 +68,5 @@ Temporary staging URL: `https://thetrevoryoung.github.io/vitel-farms-site/`
 - `evidence.html` — Sources and methodology
 - `privacy.html` — Privacy notice
 - `404.html` — Not found page
+- `ASSET-PROVENANCE.md` — public asset provenance register
+- `assets/field/README.md` — verified current field-image intake protocol
