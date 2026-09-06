@@ -3,6 +3,20 @@
 ## Launch rule
 Only assets with clear provenance and safe public-use context should be published. Historical assets must be explicitly labeled as historical and must not imply present-day operations, partnerships, facilities, land control, production, or impact.
 
+## Current brand assets
+
+### `assets/img/vitel-social-card.jpg`
+- Source: Vitel Farms website brand system.
+- Created for: website link previews on professional and social platforms.
+- Format: 1200 × 630 branded graphic.
+- Content rule: no field photograph or operational claim is implied.
+- Public use: Open Graph / Twitter social preview image.
+
+## Verified field image intake
+Current field photography must pass the checklist in `assets/field/README.md` before publication. Required fields include date, location, source, rights, consent where relevant, what the image documents, and verification status.
+
+No present-day Vitel field photograph has yet been approved for the public field-image folder.
+
 ## Included historical assets
 
 ### `assets/history/tseai-logo-legacy.jpg`
@@ -28,4 +42,4 @@ Only assets with clear provenance and safe public-use context should be publishe
 
 ### Historical Kambia/Sierra Leone people photographs
 - Legacy TEU folder includes identifiable people in historical Sierra Leone/Kambia images.
-- Excluded from v1.2 public site pending context/consent review and clearer event provenance.
+- Excluded from public use pending context/consent review and clearer event provenance.
