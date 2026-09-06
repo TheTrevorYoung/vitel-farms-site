@@ -4,6 +4,16 @@ window.VITEL_CONFIG = {
 };
 
 (() => {
+  if (!document.querySelector('link[data-vitel-visual-refresh]')) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'assets/css/visual-refresh.css';
+    link.dataset.vitelVisualRefresh = 'true';
+    document.head.appendChild(link);
+  }
+})();
+
+(() => {
   const q = (s, r=document) => r.querySelector(s);
   const qa = (s, r=document) => [...r.querySelectorAll(s)];
   const page = location.pathname.split('/').pop() || 'index.html';
