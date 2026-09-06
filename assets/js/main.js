@@ -29,7 +29,7 @@
 
   const cfg = window.VITEL_CONFIG || {};
   qa('[data-contact-label]').forEach(el => {
-    el.textContent = cfg.contactEmail || cfg.contactLabel || 'Official email pending domain activation';
+    el.textContent = cfg.contactEmail || cfg.contactLabel || 'Official email pending activation';
   });
 
   const modal = q('#inquiry-modal');
@@ -89,7 +89,7 @@
         window.location.href = `mailto:${encodeURIComponent(cfg.contactEmail)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         if (feedback) feedback.textContent = 'Opening your email app…';
       } else if (feedback) {
-        feedback.textContent = 'Staging mode: official email is not active yet. Use “Copy message” to save this inquiry.';
+        feedback.textContent = 'Official Vitel email is not active yet. Use “Copy message” to save this inquiry.';
       }
     });
   }
