@@ -51,11 +51,4 @@ window.VITEL_CONFIG = {
   if (page === 'model.html') {
     const p = q('.page-hero p'); if (p) p.textContent = 'A nucleus farm. A verified producer network. Technical support. Market intelligence. Processing only where demand and economics justify it. Cassava is the current implementation; the operating discipline is designed to outlast one crop.';
   }
-  if (page === 'updates.html') {
-    const card = q('.update-card');
-    if (card) {
-      const h = q('h2', card); if (h) h.textContent = 'Vitel clarifies its long-term identity and current cassava mission';
-      const p = q('p', card); if (p) p.textContent = 'Vitel Farms is positioned as a long-term Sierra Leonean agribusiness platform. Cassava remains the concentrated operating focus; world leadership remains a long-horizon national ambition, while Vitel reports its own measurable contribution separately.';
-    }
-  }
 })();
