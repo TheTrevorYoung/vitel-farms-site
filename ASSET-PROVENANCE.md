@@ -26,15 +26,24 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Required label: interim reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:A_Catholic_experimental_farm_in_Sierra_Leone.jpg
 
-### Cassava farm in Ogoni land
-- Source: Wikimedia Commons — `Cassava farm in Ogoni land.jpg`
-- Author: OnyekeEjike.
-- Date: 26 July 2024.
-- Location/context: Nigeria.
-- License: CC0 1.0 public-domain dedication.
-- Homepage use: field-production reference image.
-- Required label: reference image; **not Vitel operations**.
-- Source page: https://commons.wikimedia.org/wiki/File:Cassava_farm_in_Ogoni_land.jpg
+### Sierra Leone rice farming
+- Source: Wikimedia Commons — `Sierra Leone rice farming.jpg`
+- Author: Marc Rachou.
+- Location/context: Rolako, Bombali District, Sierra Leone.
+- License: CC BY-SA 1.0.
+- Homepage use: visual mosaic / land reference.
+- Required label: interim reference image; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:Sierra_Leone_rice_farming.jpg
+
+### Small farm in Freetown
+- Source: Wikimedia Commons — `Real African people working on their little farm in Freetown.jpg`
+- Author: Alusinejrkamara.
+- Date: 21 January 2016.
+- Location/context: Freetown, Sierra Leone.
+- License: CC BY-SA 4.0.
+- Homepage use: visual mosaic / people reference.
+- Required label: interim reference image; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:Real_African_people_working_on_their_little_farm_in_Freetown.jpg
 
 ### Grounded cassava pulp / gari production, Ronsab School
 - Source: Wikimedia Commons — `Grounded Cassava Pulp. Gari Production (Ronsab School).jpg`
@@ -42,19 +51,19 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Date: 18 March 2026.
 - Location/context: Sierra Leone.
 - License: CC BY-SA 4.0.
-- Homepage use: Sierra Leone value-addition reference image.
+- Homepage use: visual mosaic / value-addition reference.
 - Required label: reference image; does not imply Vitel ownership, operation or partnership.
 - Source page: https://commons.wikimedia.org/wiki/File:Grounded_Cassava_Pulp._Gari_Production_(Ronsab_School).jpg
 
-### Cassava processing
-- Source: Wikimedia Commons — `Cassava processing.jpg`
-- Author: OnyekeEjike.
-- Date: 24 July 2024.
-- Location/context: Nigeria.
-- License: CC0 1.0 public-domain dedication.
-- Homepage use: cassava-processing reference image.
+### Cassava farm
+- Source: Wikimedia Commons — `Cassava Farm.jpg`
+- Author: Zeerun.
+- Date: 12 March 2025.
+- Location/context: cassava farm reference; not Sierra Leone-specific.
+- License: CC BY-SA 4.0.
+- Homepage use: full-width cassava flagship reference.
 - Required label: reference image; **not Vitel operations**.
-- Source page: https://commons.wikimedia.org/wiki/File:Cassava_processing.jpg
+- Source page: https://commons.wikimedia.org/wiki/File:Cassava_Farm.jpg
 
 ### Kambia District map
 - Source: Wikimedia Commons — `Kambia District in Sierra Leone 2018.svg`
@@ -67,12 +76,13 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 ## Commissioning brief
 The interim images above are also a photography brief for future Vitel-owned media. Priority commissioned shots should include:
 - wide Sierra Leone agricultural landscape / hero frame;
+- land and field-establishing shots in Kambia;
+- farmer / producer portraits with documented consent;
 - cassava field at plant height;
-- harvest and weighing;
-- handling / aggregation;
+- harvest, weighing and handling;
 - processing sequence where Vitel has a verified operating context;
-- farmer or producer portraits only with documented consent;
-- Kambia landscape and location-establishing images.
+- market / buyer / logistics imagery;
+- Kambia location-establishing images.
 
 Replace interim public imagery with original Vitel photography as soon as suitable verified material is available.
 
