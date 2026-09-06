@@ -1,0 +1,99 @@
+/* Vitel Farms homepage v2.1 — visual-first, low-text */
+.visual-home main{overflow:hidden}
+.vf-hero{min-height:82vh}
+.vf-hero-copy{max-width:520px;font-size:1.05rem;margin:20px 0 26px}
+
+.v21-intro{background:var(--vf-paper);padding:76px 0 34px}
+.v21-intro .shell{display:flex;justify-content:space-between;align-items:end;gap:40px}
+.v21-intro h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(3rem,6vw,6.6rem);line-height:.9;letter-spacing:-.055em;margin:0;color:var(--vf-forest);max-width:900px}
+.v21-intro .vf-section-label{padding-bottom:8px;white-space:nowrap}
+
+.v21-mosaic{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:410px 410px;gap:10px;padding:0 10px 10px;background:var(--vf-paper)}
+.v21-tile{position:relative;overflow:hidden;background:#d8ddd6;min-height:0}
+.v21-tile:nth-child(1){grid-row:1/3}
+.v21-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.v21-tile:hover img{transform:scale(1.02)}
+.v21-tile:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,25,17,.72) 0%,rgba(7,25,17,.04) 55%)}
+.v21-tile-title{position:absolute;z-index:2;left:26px;bottom:22px;color:#fff}
+.v21-tile-title small{display:block;font-size:.6rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase;color:#efd487;margin-bottom:5px}
+.v21-tile-title strong{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.5rem,4vw,4.8rem);line-height:.9;letter-spacing:-.05em;font-weight:500}
+.v21-credit{padding:10px 16px 24px;text-align:center;font-size:.58rem;line-height:1.35;color:#7b817d;background:var(--vf-paper)}
+.v21-credit a{text-decoration:underline;text-underline-offset:2px}
+
+.v21-model{background:var(--vf-forest);padding:95px 0 90px;color:#fff}
+.v21-model-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:50px}
+.v21-model h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(3.3rem,6vw,6.8rem);line-height:.9;letter-spacing:-.06em;margin:0;max-width:960px;color:#fff}
+.v21-model .text-link{color:#fff;white-space:nowrap}
+.v21-steps{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.22)}
+.v21-step{padding:28px 22px 10px;border-right:1px solid rgba(255,255,255,.16)}
+.v21-step:last-child{border-right:0}
+.v21-step b{display:block;color:var(--vf-gold);font-size:.7rem;letter-spacing:.14em;margin-bottom:72px}
+.v21-step strong{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,3.5vw,3.7rem);font-weight:500;line-height:.95;color:#fff}
+
+.v21-cassava{position:relative;min-height:76vh;display:flex;align-items:flex-end;background:#192b20;overflow:hidden}
+.v21-cassava img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.v21-cassava:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,29,19,.78),rgba(8,29,19,.18) 70%),linear-gradient(0deg,rgba(8,29,19,.7),transparent 55%)}
+.v21-cassava-copy{position:relative;z-index:2;padding:70px 0;width:100%;color:#fff}
+.v21-cassava-copy .vf-section-label{color:var(--vf-gold);margin-bottom:12px}
+.v21-cassava h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(4rem,8vw,8rem);line-height:.86;letter-spacing:-.065em;margin:0 0 24px;color:#fff;max-width:800px}
+.v21-cassava .text-link{color:#fff;font-size:1rem}
+.v21-cassava .vf-reference-tag{left:auto;right:16px}
+
+.v21-kambia{display:grid;grid-template-columns:1fr 1fr;min-height:620px;background:var(--vf-cream)}
+.v21-kambia-map{display:grid;place-items:center;padding:48px;background:#e8e4da}
+.v21-kambia-map img{width:min(78%,520px);max-height:520px;object-fit:contain;filter:saturate(.65) contrast(1.05)}
+.v21-kambia-copy{padding:clamp(54px,8vw,100px);display:flex;flex-direction:column;justify-content:center}
+.v21-kambia-copy h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(4rem,7vw,7.5rem);line-height:.86;letter-spacing:-.06em;margin:10px 0 24px;color:var(--vf-forest)}
+.v21-kambia-copy p{font-size:1.05rem;max-width:440px;color:#5d6861;margin:0 0 20px}
+
+.v21-proof{display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-block:1px solid var(--vf-line)}
+.v21-proof article{padding:44px 34px;border-right:1px solid var(--vf-line)}
+.v21-proof article:last-child{border-right:0}
+.v21-proof small{display:block;font-size:.62rem;letter-spacing:.13em;text-transform:uppercase;color:var(--vf-earth);font-weight:900;margin-bottom:9px}
+.v21-proof strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,3.6vw,4rem);line-height:.95;color:var(--vf-forest);font-weight:500}
+
+.v21-final{background:var(--vf-gold);padding:78px 0}
+.v21-final .shell{display:flex;align-items:end;justify-content:space-between;gap:40px}
+.v21-final h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(3.2rem,6vw,6rem);line-height:.9;letter-spacing:-.055em;margin:0;color:var(--vf-forest);max-width:900px}
+.v21-final .btn{background:var(--vf-forest);color:#fff;white-space:nowrap}
+
+@media(max-width:980px){
+  .v21-mosaic{grid-template-columns:1fr 1fr;grid-template-rows:430px 430px}
+  .v21-tile:nth-child(1){grid-row:auto;grid-column:1/3}
+  .v21-steps{grid-template-columns:repeat(2,1fr)}
+  .v21-step:nth-child(2){border-right:0}
+  .v21-step:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.16)}
+  .v21-kambia{grid-template-columns:1fr}
+  .v21-kambia-map{min-height:520px}
+}
+
+@media(max-width:650px){
+  .vf-hero{min-height:690px}
+  .vf-hero-copy{font-size:.96rem;max-width:330px}
+  .v21-intro{padding:58px 0 24px}
+  .v21-intro .shell{display:grid;gap:14px}
+  .v21-intro h2{font-size:clamp(3.2rem,15vw,5rem)}
+  .v21-mosaic{display:grid;grid-template-columns:1fr;grid-template-rows:none;padding:0 6px 6px;gap:6px}
+  .v21-tile,.v21-tile:nth-child(1){grid-column:auto;grid-row:auto;min-height:440px}
+  .v21-tile-title{left:20px;bottom:18px}
+  .v21-model{padding:70px 0 64px}
+  .v21-model-head{display:grid;gap:18px;margin-bottom:34px}
+  .v21-model h2{font-size:clamp(3.2rem,14vw,5rem)}
+  .v21-steps{grid-template-columns:1fr}
+  .v21-step{border-right:0;border-bottom:1px solid rgba(255,255,255,.16);padding:24px 6px}
+  .v21-step:last-child{border-bottom:0}
+  .v21-step b{margin-bottom:28px}
+  .v21-cassava{min-height:650px}
+  .v21-cassava-copy{padding:54px 0}
+  .v21-cassava h2{font-size:clamp(4rem,19vw,6rem)}
+  .v21-kambia-map{min-height:420px;padding:30px}
+  .v21-kambia-copy{padding:56px 22px 64px}
+  .v21-kambia-copy h2{font-size:clamp(4rem,18vw,6rem)}
+  .v21-proof{grid-template-columns:1fr}
+  .v21-proof article{border-right:0;border-bottom:1px solid var(--vf-line);padding:34px 22px}
+  .v21-proof article:last-child{border-bottom:0}
+  .v21-final{padding:62px 0}
+  .v21-final .shell{display:grid}
+  .v21-final h2{font-size:clamp(3.4rem,15vw,5rem)}
+  .v21-final .btn{width:100%}
+}
