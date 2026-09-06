@@ -1,0 +1,76 @@
+/* Vitel Farms — Building the Farm in Public v3.0 */
+:root{--story-dark:#0b2419;--story-green:#173729;--story-gold:#e1b75a;--story-cream:#f3efe3;--story-ink:#152019;--story-line:rgba(21,32,25,.14);--story-muted:#69736d}
+.story-page{background:#fbf9f4}
+.story-hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--story-dark);color:#fff}
+.story-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.story-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,22,15,.84),rgba(6,22,15,.45) 55%,rgba(6,22,15,.14)),linear-gradient(0deg,rgba(6,22,15,.7),transparent 50%)}
+.story-hero .shell{position:relative;z-index:2;padding:110px 0 62px}
+.story-hero .eyebrow{color:#f0cf7f}
+.story-hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(4rem,9vw,8.8rem);line-height:.86;letter-spacing:-.06em;margin:0;max-width:980px;color:#fff}
+.story-hero h1 span{display:block;color:var(--story-gold)}
+.story-hero p{font-size:clamp(1rem,1.7vw,1.25rem);max-width:660px;color:#e5ece7;margin:24px 0 28px}
+.story-credit{position:absolute;z-index:3;right:15px;bottom:12px;color:rgba(255,255,255,.68);font-size:.55rem;max-width:420px;text-align:right}
+.story-strip{background:var(--story-gold);color:var(--story-dark)}
+.story-strip .shell{min-height:54px;display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:.68rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.story-strip i{width:5px;height:5px;border-radius:50%;background:var(--story-dark);opacity:.5}
+.story-section{padding:clamp(70px,8vw,110px) 0}
+.story-section.dark{background:var(--story-dark);color:#fff}
+.story-section.cream{background:var(--story-cream)}
+.story-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:36px}
+.story-head h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.8rem,5.5vw,5.4rem);line-height:.92;letter-spacing:-.05em;margin:0;color:var(--story-green)}
+.dark .story-head h2{color:#fff}
+.story-head p{max-width:520px;color:var(--story-muted);margin:0}
+.dark .story-head p{color:#bac9c0}
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.project-card{position:relative;min-height:620px;overflow:hidden;background:#d7ddd5;color:#fff}
+.project-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.project-card:hover img{transform:scale(1.018)}
+.project-card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,22,14,.85),transparent 62%)}
+.project-card .project-copy{position:absolute;z-index:2;left:28px;right:28px;bottom:28px}
+.project-status{display:inline-flex;padding:7px 9px;background:var(--story-gold);color:var(--story-dark);font-size:.59rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.project-card h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.8rem,5vw,5.2rem);line-height:.88;letter-spacing:-.05em;margin:0 0 10px;color:#fff}
+.project-card p{margin:0 0 15px;color:#e3ebe6;max-width:520px}
+.project-card a{font-weight:900;border-bottom:1px solid var(--story-gold)}
+.story-note{font-size:.61rem;color:#7b857e;margin-top:12px}
+.roadmap{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(255,255,255,.19);border-bottom:1px solid rgba(255,255,255,.19)}
+.roadmap article{padding:34px 26px 40px;border-right:1px solid rgba(255,255,255,.17);min-height:280px;display:flex;flex-direction:column;justify-content:space-between}
+.roadmap article:last-child{border-right:0}
+.roadmap span{font-size:.63rem;letter-spacing:.13em;font-weight:900;color:var(--story-gold);text-transform:uppercase}
+.roadmap h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.5rem,4vw,4.2rem);line-height:.9;margin:0;color:#fff}
+.roadmap p{font-size:.82rem;color:#becbc3;margin:12px 0 0;max-width:280px}
+.story-image-band{position:relative;min-height:72vh;display:flex;align-items:flex-end;overflow:hidden;color:#fff;background:#173729}
+.story-image-band>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.story-image-band:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,23,15,.83),rgba(6,23,15,.08) 68%)}
+.story-image-band .shell{position:relative;z-index:2;padding-bottom:54px}
+.story-image-band h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(3.4rem,7vw,7.2rem);line-height:.87;letter-spacing:-.055em;margin:0 0 12px;color:#fff;max-width:920px}
+.story-image-band p{margin:0;color:#e2eae5;max-width:600px}
+.build-log-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.build-log-card{background:#fff;border:1px solid var(--story-line);padding:24px;min-height:240px;display:flex;flex-direction:column}
+.build-log-card .episode{font-size:.61rem;font-weight:900;letter-spacing:.13em;color:#8a5637;text-transform:uppercase}
+.build-log-card h3{font-family:Georgia,"Times New Roman",serif;font-size:1.8rem;line-height:1.02;color:var(--story-green);margin:38px 0 10px}
+.build-log-card p{font-size:.83rem;color:#66716a;margin:0 0 18px}
+.build-log-card .status{margin-top:auto;align-self:flex-start}
+.two-track{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.track-panel{background:#fff;border:1px solid var(--story-line);padding:32px}
+.track-panel h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.4rem,4vw,4rem);line-height:.92;color:var(--story-green);margin:8px 0 22px}
+.track-panel .track-steps{display:grid;gap:0}
+.track-step{display:grid;grid-template-columns:92px 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--story-line);align-items:start}
+.track-step:first-child{border-top:0}
+.track-step b{font-size:.66rem;letter-spacing:.11em;color:#8a5637;text-transform:uppercase}
+.track-step strong{display:block;color:var(--story-green);font-size:1.04rem}
+.track-step small{display:block;color:#6e7871;margin-top:3px}
+.product-ladder{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--story-line)}
+.product-ladder article{padding:36px 28px;border-right:1px solid var(--story-line);background:#fff}
+.product-ladder article:last-child{border-right:0}
+.product-ladder .phase{font-size:.62rem;font-weight:900;letter-spacing:.12em;color:#8a5637;text-transform:uppercase}
+.product-ladder h3{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.3rem,4vw,4rem);line-height:.9;color:var(--story-green);margin:42px 0 12px}
+.product-ladder p{margin:0;color:#66716a;font-size:.86rem}
+.big-number{font-family:Georgia,"Times New Roman",serif;font-size:clamp(6rem,15vw,13rem);line-height:.75;letter-spacing:-.07em;color:var(--story-gold)}
+.story-quote{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.5rem,5vw,5rem);line-height:.95;letter-spacing:-.045em;color:var(--story-green);max-width:1000px;margin:0}
+.story-final{background:var(--story-gold);padding:70px 0}
+.story-final .shell{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.story-final h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.8rem,5vw,5rem);line-height:.9;letter-spacing:-.05em;color:var(--story-dark);margin:0;max-width:800px}
+.story-final .btn{background:var(--story-dark);color:#fff}
+
+@media(max-width:980px){.project-grid,.two-track{grid-template-columns:1fr}.project-card{min-height:540px}.roadmap{grid-template-columns:1fr}.roadmap article{border-right:0;border-bottom:1px solid rgba(255,255,255,.17);min-height:210px}.roadmap article:last-child{border-bottom:0}.build-log-grid{grid-template-columns:repeat(2,1fr)}.product-ladder{grid-template-columns:1fr}.product-ladder article{border-right:0;border-bottom:1px solid var(--story-line)}.product-ladder article:last-child{border-bottom:0}.story-head{display:grid}}
+@media(max-width:650px){.story-hero{min-height:670px}.story-hero .shell{padding:100px 0 50px}.story-hero h1{font-size:clamp(3.5rem,18vw,5.6rem)}.story-credit{left:14px;right:14px;text-align:left;font-size:.5rem}.story-strip .shell{justify-content:flex-start;overflow:hidden;white-space:nowrap}.project-card{min-height:470px}.project-card .project-copy{left:20px;right:20px;bottom:22px}.build-log-grid{grid-template-columns:1fr}.track-panel{padding:24px 20px}.track-step{grid-template-columns:70px 1fr}.story-image-band{min-height:620px}.story-final .shell{display:grid}.story-final .btn{width:100%}}
