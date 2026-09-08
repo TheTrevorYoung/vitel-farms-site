@@ -16,24 +16,34 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 
 ## Public interim reference imagery — homepage
 
-### Sierra Leone experimental farm
-- Source: Wikimedia Commons — `A Catholic experimental farm in Sierra Leone.jpg`
-- Author: Gabriel Rockwell.
-- Date: 16 June 2016.
-- Location/context: Sierra Leone.
+### Cassava farm
+- Source: Wikimedia Commons — `Cassava Farm.jpg`
+- Author: Zeerun.
+- Date: 12 March 2025.
+- Location/context: cassava farm reference; not Sierra Leone-specific.
 - License: CC BY-SA 4.0.
-- Homepage use: full-width hero reference image.
-- Required label: interim reference image; **not Vitel operations**.
-- Source page: https://commons.wikimedia.org/wiki/File:A_Catholic_experimental_farm_in_Sierra_Leone.jpg
+- Homepage use: crop-first hero, Kambia cassava feature and cassava project card.
+- Required label: reference image; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:Cassava_Farm.jpg
 
 ### Sierra Leone rice farming
 - Source: Wikimedia Commons — `Sierra Leone rice farming.jpg`
 - Author: Marc Rachou.
 - Location/context: Rolako, Bombali District, Sierra Leone.
 - License: CC BY-SA 1.0.
-- Homepage use: visual mosaic / land reference.
+- Homepage use: crop-first hero, Lungi rice feature and rice project card.
 - Required label: interim reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:Sierra_Leone_rice_farming.jpg
+
+### Sierra Leone experimental farm
+- Source: Wikimedia Commons — `A Catholic experimental farm in Sierra Leone.jpg`
+- Author: Gabriel Rockwell.
+- Date: 16 June 2016.
+- Location/context: Sierra Leone.
+- License: CC BY-SA 4.0.
+- Current use: retained as an approved general agriculture reference, but no longer used as the homepage hero.
+- Required label: interim reference image; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:A_Catholic_experimental_farm_in_Sierra_Leone.jpg
 
 ### Small farm in Freetown
 - Source: Wikimedia Commons — `Real African people working on their little farm in Freetown.jpg`
@@ -41,7 +51,7 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Date: 21 January 2016.
 - Location/context: Freetown, Sierra Leone.
 - License: CC BY-SA 4.0.
-- Homepage use: visual mosaic / people reference.
+- Use: farmer / people reference where needed on interior pages.
 - Required label: interim reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:Real_African_people_working_on_their_little_farm_in_Freetown.jpg
 
@@ -51,38 +61,27 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Date: 18 March 2026.
 - Location/context: Sierra Leone.
 - License: CC BY-SA 4.0.
-- Homepage use: visual mosaic / value-addition reference.
+- Use: gari-processing reference on interior/project pages only; no longer the lead homepage cassava image.
 - Required label: reference image; does not imply Vitel ownership, operation or partnership.
 - Source page: https://commons.wikimedia.org/wiki/File:Grounded_Cassava_Pulp._Gari_Production_(Ronsab_School).jpg
-
-### Cassava farm
-- Source: Wikimedia Commons — `Cassava Farm.jpg`
-- Author: Zeerun.
-- Date: 12 March 2025.
-- Location/context: cassava farm reference; not Sierra Leone-specific.
-- License: CC BY-SA 4.0.
-- Homepage use: full-width cassava flagship reference.
-- Required label: reference image; **not Vitel operations**.
-- Source page: https://commons.wikimedia.org/wiki/File:Cassava_Farm.jpg
 
 ### Kambia District map
 - Source: Wikimedia Commons — `Kambia District in Sierra Leone 2018.svg`
 - Author: NordNordWest.
 - Date: 19 January 2018.
 - License: CC BY-SA 3.0 DE.
-- Homepage use: geographic context for Vitel's Kambia roots.
+- Use: geographic context for Vitel's Kambia roots where needed.
 - Source page: https://commons.wikimedia.org/wiki/File:Kambia_District_in_Sierra_Leone_2018.svg
 
 ## Commissioning brief
-The interim images above are also a photography brief for future Vitel-owned media. Priority commissioned shots should include:
-- wide Sierra Leone agricultural landscape / hero frame;
-- land and field-establishing shots in Kambia;
+The homepage now sets the visual brief around the two crops first. Priority commissioned shots should include:
+- strong African agricultural-production hero imagery;
+- wide cassava fields and raw cassava harvest in Kambia;
+- cassava plants, roots, harvest, weighing and farmer activity;
+- gari-processing sequence once Vitel has a verified operating context;
 - farmer / producer portraits with documented consent;
-- cassava field at plant height;
-- harvest, weighing and handling;
-- processing sequence where Vitel has a verified operating context;
-- market / buyer / logistics imagery;
-- Kambia location-establishing images.
+- rice fields, planting and harvest imagery in Lungi once the land is acquired and production begins;
+- location-establishing images for Kambia and Lungi.
 
 Replace interim public imagery with original Vitel photography as soon as suitable verified material is available.
 
