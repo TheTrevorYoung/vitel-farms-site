@@ -22,16 +22,36 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Date: 12 March 2025.
 - Location/context: cassava farm reference; not Sierra Leone-specific.
 - License: CC BY-SA 4.0.
-- Homepage use: crop-first hero, Kambia cassava feature and cassava project card.
+- Homepage use: cassava half of the crop-first hero.
 - Required label: reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:Cassava_Farm.jpg
+
+### Rice fields in the Gambia
+- Source: Wikimedia Commons — `Rice fields in the Gambia.jpg`
+- Author: Catjacket.
+- Date: 26 February 2024.
+- Location/context: rice fields along the Gambia River near Sutukoba, The Gambia.
+- License: CC BY-SA 4.0.
+- Homepage use: rice half of the crop-first hero only.
+- Required label: interim West African reference image; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:Rice_fields_in_the_Gambia.jpg
+
+### Rice field near residential area in Kaduna State, Nigeria
+- Source: Wikimedia Commons — `Rice field near residential area in Kaduna State, Nigeria.jpg`
+- Author: Zmu'az4Z.
+- Date: 1 October 2025.
+- Location/context: Kaduna State, Nigeria.
+- License: CC BY-SA 4.0.
+- Use: Lungi rice project page reference image only.
+- Required label: interim West African rice reference; **not Vitel operations**.
+- Source page: https://commons.wikimedia.org/wiki/File:Rice_field_near_residential_area_in_Kaduna_State,_Nigeria.jpg
 
 ### Sierra Leone rice farming
 - Source: Wikimedia Commons — `Sierra Leone rice farming.jpg`
 - Author: Marc Rachou.
 - Location/context: Rolako, Bombali District, Sierra Leone.
 - License: CC BY-SA 1.0.
-- Homepage use: crop-first hero, Lungi rice feature and rice project card.
+- Use: retained as an approved Sierra Leone rice reference for interior use; no longer used in the homepage hero.
 - Required label: interim reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:Sierra_Leone_rice_farming.jpg
 
@@ -74,13 +94,13 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Source page: https://commons.wikimedia.org/wiki/File:Kambia_District_in_Sierra_Leone_2018.svg
 
 ## Commissioning brief
-The homepage now sets the visual brief around the two crops first. Priority commissioned shots should include:
+The homepage sets the visual brief around the two crops first. Priority commissioned shots should include:
 - strong African agricultural-production hero imagery;
 - wide cassava fields and raw cassava harvest in Kambia;
 - cassava plants, roots, harvest, weighing and farmer activity;
 - gari-processing sequence once Vitel has a verified operating context;
 - farmer / producer portraits with documented consent;
-- rice fields, planting and harvest imagery in Lungi once the land is acquired and production begins;
+- rice fields, planting and harvest imagery in Lungi as verified project activity becomes available;
 - location-establishing images for Kambia and Lungi.
 
 Replace interim public imagery with original Vitel photography as soon as suitable verified material is available.
