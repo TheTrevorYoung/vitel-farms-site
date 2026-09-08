@@ -1,4 +1,4 @@
-/* Vitel Farms — Building the Farm in Public v3.2 */
+/* Vitel Farms — Building the Farm in Public v3.3 */
 :root{--story-dark:#0b2419;--story-green:#173729;--story-gold:#e1b75a;--story-cream:#f3efe3;--story-ink:#152019;--story-line:rgba(21,32,25,.14);--story-muted:#69736d}
 .story-page{background:#fbf9f4}
 .story-hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--story-dark);color:#fff}
@@ -73,5 +73,25 @@
 .story-final h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.8rem,5vw,5rem);line-height:.9;letter-spacing:-.05em;color:var(--story-dark);margin:0;max-width:800px}
 .story-final .btn{background:var(--story-dark);color:#fff}
 
-@media(max-width:980px){.project-grid,.two-track{grid-template-columns:1fr}.project-card{min-height:540px}.roadmap{grid-template-columns:1fr}.roadmap article{border-right:0;border-bottom:1px solid rgba(255,255,255,.17);min-height:210px}.roadmap article:last-child{border-bottom:0}.build-log-grid{grid-template-columns:repeat(2,1fr)}.product-ladder{grid-template-columns:1fr}.product-ladder article{border-right:0;border-bottom:1px solid var(--story-line)}.product-ladder article:last-child{border-bottom:0}.story-head{display:grid}}
-@media(max-width:650px){.story-hero{min-height:670px}.story-hero .shell{padding:100px 0 50px}.story-hero h1{font-size:clamp(3.5rem,18vw,5.6rem)}.story-credit{left:14px;right:14px;text-align:left;font-size:.5rem}.story-strip .shell{justify-content:center;gap:34px;overflow:visible;white-space:normal;min-height:62px;font-size:.92rem}.story-strip span{min-width:90px}.project-card{min-height:470px}.project-card .project-copy{left:20px;right:20px;bottom:22px}.build-log-grid{grid-template-columns:1fr}.track-panel{padding:24px 20px}.track-step{grid-template-columns:70px 1fr}.story-image-band{min-height:620px}.story-final .shell{display:grid}.story-final .btn{width:100%}}
+/* Crop-first homepage */
+.crop-hero{position:relative;min-height:86vh;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;background:var(--story-dark);color:#fff}
+.crop-hero-image{position:relative;min-height:86vh;overflow:hidden}
+.crop-hero-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.crop-hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,20,13,.72),rgba(5,20,13,.10) 58%),linear-gradient(90deg,rgba(5,20,13,.36),rgba(5,20,13,.08))}
+.crop-hero-rice:after{background:linear-gradient(0deg,rgba(5,20,13,.72),rgba(5,20,13,.08) 58%),linear-gradient(270deg,rgba(5,20,13,.32),rgba(5,20,13,.06))}
+.crop-hero-overlay{position:absolute;z-index:3;inset:0;display:flex;align-items:flex-end;background:linear-gradient(90deg,rgba(3,17,10,.48),rgba(3,17,10,.12) 48%,rgba(3,17,10,.18))}
+.crop-hero-overlay .shell{width:100%;padding-bottom:64px}
+.crop-hero-overlay .eyebrow{color:#f0cf7f}
+.crop-hero-overlay h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(5rem,10.5vw,10.5rem);line-height:.78;letter-spacing:-.065em;margin:0;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.18)}
+.crop-hero-overlay h1 span{color:var(--story-gold)}
+.crop-hero-overlay p{font-size:clamp(1.2rem,2.4vw,1.8rem);font-weight:800;letter-spacing:.02em;color:#fff;margin:24px 0 28px}
+.crop-hero .story-credit{z-index:4}
+.crop-location-strip .shell{min-height:78px;font-size:clamp(1.1rem,2vw,1.55rem);gap:clamp(60px,14vw,220px)}
+.crop-location-strip span{min-width:150px}
+.crop-focus .story-head{margin-bottom:42px}
+.crop-card{min-height:680px}
+.crop-card h3{font-size:clamp(4rem,7vw,7rem)}
+.rice-band .text-link{display:inline-block;margin-top:20px;color:#fff;border-bottom:1px solid var(--story-gold);font-weight:900}
+
+@media(max-width:980px){.project-grid,.two-track{grid-template-columns:1fr}.project-card{min-height:540px}.roadmap{grid-template-columns:1fr}.roadmap article{border-right:0;border-bottom:1px solid rgba(255,255,255,.17);min-height:210px}.roadmap article:last-child{border-bottom:0}.build-log-grid{grid-template-columns:repeat(2,1fr)}.product-ladder{grid-template-columns:1fr}.product-ladder article{border-right:0;border-bottom:1px solid var(--story-line)}.product-ladder article:last-child{border-bottom:0}.story-head{display:grid}.crop-hero{min-height:82vh}.crop-hero-image{min-height:82vh}.crop-card{min-height:580px}}
+@media(max-width:650px){.story-hero{min-height:670px}.story-hero .shell{padding:100px 0 50px}.story-hero h1{font-size:clamp(3.5rem,18vw,5.6rem)}.story-credit{left:14px;right:14px;text-align:left;font-size:.5rem}.story-strip .shell{justify-content:center;gap:34px;overflow:visible;white-space:normal;min-height:62px;font-size:.92rem}.story-strip span{min-width:90px}.project-card{min-height:470px}.project-card .project-copy{left:20px;right:20px;bottom:22px}.build-log-grid{grid-template-columns:1fr}.track-panel{padding:24px 20px}.track-step{grid-template-columns:70px 1fr}.story-image-band{min-height:620px}.story-final .shell{display:grid}.story-final .btn{width:100%}.crop-hero{grid-template-columns:1fr;grid-template-rows:1fr 1fr;min-height:780px}.crop-hero-image{min-height:390px}.crop-hero-overlay{align-items:center;background:linear-gradient(0deg,rgba(3,17,10,.48),rgba(3,17,10,.18) 55%,rgba(3,17,10,.34))}.crop-hero-overlay .shell{padding:80px 0 30px}.crop-hero-overlay h1{font-size:clamp(4.5rem,22vw,7rem)}.crop-hero-overlay p{font-size:1.12rem}.crop-location-strip .shell{min-height:70px;font-size:1.05rem;gap:26px}.crop-location-strip span{min-width:100px}.crop-card{min-height:500px}}
