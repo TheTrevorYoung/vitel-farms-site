@@ -24,9 +24,12 @@
   padding:6px 9px;
   border-radius:3px;
   text-shadow:none;
+  font-size:.68rem;
+  line-height:1.35;
 }
 @media(max-width:650px){
   .crop-hero-overlay{
     background:linear-gradient(0deg,rgba(3,17,10,.84) 0%,rgba(3,17,10,.72) 42%,rgba(3,17,10,.30) 70%,rgba(3,17,10,.08) 100%) !important;
   }
+  .crop-hero .story-credit{font-size:.64rem;}
 }
