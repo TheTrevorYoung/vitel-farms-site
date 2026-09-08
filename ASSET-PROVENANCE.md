@@ -14,6 +14,13 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Content rule: no field photograph or operational claim is implied.
 - Public use: Open Graph / Twitter social preview image.
 
+### `assets/img/rice-home.avif`
+- Source: image supplied directly by Trevor Young in ChatGPT on 8 September 2026 for use on the Vitel Farms website.
+- Website use: rice half of the homepage crop-first hero.
+- Treatment: web-optimized copy of the supplied photograph.
+- Context: close-up rice crop reference; not presented as current Vitel operations.
+- Photographer/original-source metadata: not supplied.
+
 ## Public interim reference imagery — homepage
 
 ### Cassava farm
@@ -32,7 +39,7 @@ Public interim imagery may be used as a visual reference while Vitel commissions
 - Date: 26 February 2024.
 - Location/context: rice fields along the Gambia River near Sutukoba, The Gambia.
 - License: CC BY-SA 4.0.
-- Homepage use: rice half of the crop-first hero only.
+- Current use: retained as an approved West African rice reference; no longer used in the homepage hero.
 - Required label: interim West African reference image; **not Vitel operations**.
 - Source page: https://commons.wikimedia.org/wiki/File:Rice_fields_in_the_Gambia.jpg
 
@@ -100,6 +107,7 @@ The homepage sets the visual brief around the two crops first. Priority commissi
 - cassava plants, roots, harvest, weighing and farmer activity;
 - gari-processing sequence once Vitel has a verified operating context;
 - farmer / producer portraits with documented consent;
+- bright, close, immediately recognizable rice crop imagery for Lungi;
 - rice fields, planting and harvest imagery in Lungi as verified project activity becomes available;
 - location-establishing images for Kambia and Lungi.
 
