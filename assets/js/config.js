@@ -28,18 +28,18 @@ window.VITEL_CONFIG = {
       ['model.html','How It Works'],
       ['crops.html','Projects'],
       ['markets.html','Markets'],
-      ['updates.html','Build Log']
+      ['updates.html','Verification Updates']
     ];
     nav.innerHTML = items.map(([href,label]) => `<a href="${href}"${activePage === href ? ' class="active" aria-current="page"' : ''}>${label}</a>`).join('') + `<a class="nav-cta${page === 'contact.html' ? ' active' : ''}"${page === 'contact.html' ? ' aria-current="page"' : ''} href="contact.html">Work with Vitel</a>`;
   }
 
   qa('.footer-brand').forEach(b => {
     const p = b.nextElementSibling;
-    if (p) p.textContent = 'Building the farm in public.';
+    if (p) p.textContent = 'Evidence-first agribusiness development.';
   });
   qa('.site-footer').forEach(f => {
     const explore = q('.footer-grid > div:nth-child(2)', f);
-    if (explore) explore.innerHTML = '<h3>Explore</h3><a href="about.html">Our story</a><a href="mission.html">Roadmap</a><a href="crops.html">Projects</a><a href="updates.html">Build log</a>';
+    if (explore) explore.innerHTML = '<h3>Explore</h3><a href="about.html">Our story</a><a href="mission.html">Roadmap</a><a href="crops.html">Projects</a><a href="updates.html">Verification updates</a>';
     const trust = q('.footer-grid > div:nth-child(3)', f);
     if (trust) trust.innerHTML = '<h3>Trust</h3><a href="evidence.html">Evidence & methodology</a><a href="privacy.html">Privacy</a><a href="contact.html">Work with Vitel</a>';
   });
